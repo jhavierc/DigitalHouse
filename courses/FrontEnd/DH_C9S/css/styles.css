@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+}
+
+.barrasuperior {
+    position: relative;
+    background-color: #222222;
+    color: white;
+}
+
+.barrasuperior a {
+    color: #ffffff;
+    height: 30px;
+}
+
+.barrasuperior ul {
+    position: relative;
+    left: 20px;
+}
+
+.menuppal {
+    background-color: #F0A83E;
+    /*position: fixed;
+    top: 20px;
+    width: 100%;*/
+}
+
+.menuppal a {
+    color: #ffffff;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 521px;
+    background-position: center;
+    color: #3C2313;
+}
+
+.banner img {
+    background-attachment: fixed;
+}
+
+.producto {
+    background-color: #fbfbf3;
+}
+
+.informacion {
+    background-color: #3C2313;
+    height: 350px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.texto-icon {
+    font-size: 12px;
+}
+
+.barrafooter {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
