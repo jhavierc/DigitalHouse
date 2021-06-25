@@ -26,6 +26,7 @@ main {
     overflow: auto;
     padding-bottom: 30px;
     background-color: #E4E4E4;
+    height: 100%;
 }
 
 
@@ -67,6 +68,7 @@ main {
 /*footer*/
 
 footer {
+    display: flex;
     position: fixed;
     bottom: 0px;
     background-color: #fff;
@@ -74,5 +76,23 @@ footer {
 }
 
 footer img {
-    width: 250px;
+    width: 150px;
+}
+
+footer p {
+    text-align: right;
+    width: 50%;
+    align-items: center;
+}
+
+.footer-texto {
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.footer-i {
+    margin-left: 5px;
+    margin-right: 5px;
 }
