@@ -27,6 +27,7 @@ main {
     padding-bottom: 30px;
     background-color: #E4E4E4;
     height: 100%;
+    width: 100%;
 }
 
 
@@ -38,6 +39,21 @@ main {
     flex-flow: wrap;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
 }
 
 .card {
@@ -62,6 +78,7 @@ main {
     padding: 10px;
     font-size: 12px;
     text-align: justify;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -92,7 +109,25 @@ footer p {
     justify-content: flex-start;
 }
 
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    color: #df3456;
+    font-size: 40px;
+}
+
 .footer-i {
     margin-left: 5px;
     margin-right: 5px;
+    color: #282828;
+    font-size: 20px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
