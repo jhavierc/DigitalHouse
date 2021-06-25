@@ -10,13 +10,12 @@
 /* header*/
 
 header {
-    position: static;
     background-color: #282828;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
+    padding: 20px;
 }
 
 .logo {
@@ -38,7 +37,15 @@ header {
 
 .menu li {
     color: #F3F3F3;
-    padding-left: 13px;
+    padding-left: 6px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 35px 10px;
 }
 
 
@@ -48,7 +55,7 @@ header {
     position: absolute;
     background-color: #E5E5E5;
     width: 100%;
-    min-height: 80%;
+    height: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -64,6 +71,7 @@ header {
     width: 490px;
     height: 350px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 .content-left img {
@@ -76,6 +84,7 @@ header {
     width: 490px;
     height: 350px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 .content-rigth-title {
@@ -123,7 +132,6 @@ header {
 /* footer*/
 
 footer {
-    position: absolute;
     width: 100%;
     background-color: #282828;
     bottom: 0px;
