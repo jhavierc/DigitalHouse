@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* barra superior */
+
+.barrasuperior {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+    padding: 4px 20px 4px 90px;
+}
+
+.header-select-option {
+    padding-left: 20px;
+}
+
+
+/* Menu principal */
+
+.menuppal {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 50px;
+}
+
+.menuppal nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menuppal nav ul li {
+    padding-left: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* banner */
+
+.banner {
+    position: absolute;
+    width: 100%;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 521px;
+    color: #3C2313;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-info h1 {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 9px 10px 9px 10px;
+    font-size: 30px;
+}
+
+.banner-info p {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.banner-info button {
+    background: #F0A83E;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 15px 23px 15px 23px;
+    color: #fff;
+}
+
+
+/* content */
+
+.productos {
+    padding-top: 550px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #3C2313;
+}
+
+.productos ul {
+    display: flex;
+}
+
+.productos li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.productos .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productos .content .producto {
+    background-color: #FBFAF6;
+    text-align: center;
+    margin: 20px;
+    align-self: center;
+}
+
+.productos .content .producto p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #3C2313;
+}
+
+.productos .content .producto p.precio {
+    color: #F0A83E;
+    padding-bottom: 10px;
+}
+
+.productos .contact {
+    display: flex;
+    padding: 78px 341px 150px 341px;
+    background-color: red;
+}
+
+
+/* footer*/
+
+.informacion {
+    background-color: #3C2313;
+    height: 350px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.texto-icon {
+    font-size: 12px;
+}
+
+.barrafooter {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
