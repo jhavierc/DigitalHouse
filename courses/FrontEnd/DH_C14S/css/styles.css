@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+* {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+}
+
+@media (min-width:769px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    padding-left: 10px;
+}
+
+.titulo {
+    position: relative;
+    font-size: 40px;
+    background-color: #00669F;
+    padding: 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    position: absolute;
+    font-size: 16px;
+    bottom: 0px;
+    padding: 16px;
+    width: 100%;
+    background-color: #00669F;
+    color: #F3F3F3;
+}
+
+footer img {
+    width: 70px;
+    padding: 32px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: inline-block;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 532px;
+    width: 300px;
+    margin: 30px;
+}
+
+.card-encabezado {
+    position: relative;
+    height: 194px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.batman {
+    background-image: url(../img/batmanTop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.harly {
+    background-image: url(../img/harleyTop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.superman {
+    background-image: url(../img/supertmanTop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mmaravilla {
+    background-image: url(../img/mmaravillaTop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.corazon {
+    margin-top: 15px;
+    margin-left: 21px;
+    position: relative;
+    width: 33px;
+    height: 29px;
+}
+
+.foto {
+    position: relative;
+    background-color: transparent;
+    top: 78px;
+    height: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img.circular {
+    border-radius: 50%;
+    border: 1px black;
+    width: 120;
+    height: 120px;
+}
+
+.card-contenido {
+    text-align: center;
+    background-color: #F3F3F3;
+    height: 336px;
+    /*border-radius: 0 0px 10px 10px;*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-contenido .datos {
+    height: 275px;
+}
+
+.nombre {
+    top: 597px;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 74px;
+}
+
+.descripcion {
+    padding: 10px 17px 10px 17px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card-boton {
+    border-radius: 3px;
+    background-color: #00669F;
+    border: 0px;
+    color: #F3F3F3;
+    padding: 15px 37px 15px 37px;
+}
