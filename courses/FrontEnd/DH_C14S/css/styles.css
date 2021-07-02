@@ -4,6 +4,26 @@
     font-family: Roboto;
 }
 
+
+/* header*/
+
+.descuentos {
+    background-color: #D1891C;
+    padding-left: 10px;
+}
+
+.titulo {
+    position: relative;
+    font-size: 40px;
+    background-color: #00669F;
+    padding: 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+
+/* contenido*/
+
 @media (min-width:320px) and (max-width:480px) {
     .card {
         display: inline-block;
@@ -14,9 +34,20 @@
         width: 300px;
         margin: 30px;
     }
+    footer .derechos {
+        text-align: center;
+        width: 100vw;
+    }
+    footer .github {
+        text-align: center;
+        width: 100vw;
+    }
 }
 
 @media (min-width:481px) and (max-width:768px) {
+    .contenido {
+        min-width: 480px;
+    }
     .card {
         display: inline-block;
         font-family: Roboto;
@@ -25,6 +56,18 @@
         height: 532px;
         width: 300px;
         margin: 30px;
+    }
+    footer .derechos {
+        font-size: 12px;
+        text-align: center;
+        width: 100vw;
+    }
+    footer .github {
+        text-align: center;
+        width: 100vw;
+    }
+    .add {
+        padding-left: 70vw;
     }
 }
 
@@ -38,34 +81,26 @@
         width: 300px;
         margin: 30px;
     }
+    .add {
+        padding-left: 80vw;
+    }
 }
 
-.descuentos {
-    background-color: #1CD1B0;
-    padding-left: 10px;
+.add {
+    position: fixed;
+    padding-top: 50vh;
+    padding-left: 95vw;
 }
 
-.titulo {
-    position: relative;
-    font-size: 40px;
-    background-color: #00669F;
-    padding: 28px;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-}
-
-footer {
-    position: absolute;
-    font-size: 16px;
-    bottom: 0px;
-    padding: 16px;
-    width: 100%;
+.boton-add {
     background-color: #00669F;
     color: #F3F3F3;
-}
-
-footer img {
-    width: 70px;
-    padding: 32px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 0px;
 }
 
 .contenido {
@@ -172,4 +207,32 @@ img.circular {
     border: 0px;
     color: #F3F3F3;
     padding: 15px 37px 15px 37px;
+}
+
+
+/* footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0px;
+    padding: 16px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 80px;
+}
+
+footer .derechos {
+    text-align: right;
+    width: 60vw;
+}
+
+footer .github {
+    text-align: right;
+    width: 35vw;
 }
