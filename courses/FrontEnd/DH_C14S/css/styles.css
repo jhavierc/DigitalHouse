@@ -131,24 +131,22 @@
     background-image: url(../img/batmanTop.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .harly {
     background-image: url(../img/harleyTop.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .superman {
     background-image: url(../img/supertmanTop.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mmaravilla {
     background-image: url(../img/mmaravillaTop.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .corazon {
