@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap');
+* {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+
+/* header*/
+
+.descuentos {
+    background-color: #1CD1B0;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.titulo {
+    position: relative;
+    font-size: 25px;
+    background-color: #00669F;
+    padding: 15px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.titulo img {
+    width: 60px;
+}
+
+
+/* contenido*/
+
+@media (min-width:320px) and (max-width:480px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+    footer .derechos {
+        text-align: center;
+        width: 100vw;
+    }
+    footer .github {
+        text-align: center;
+        width: 100vw;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .contenido {
+        min-width: 480px;
+    }
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+    footer .derechos {
+        font-size: 12px;
+        text-align: center;
+        width: 100vw;
+    }
+    footer .github {
+        text-align: center;
+        width: 100vw;
+    }
+    .add {
+        padding-left: 70vw;
+    }
+}
+
+@media (min-width:769px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+    .add {
+        padding-left: 80vw;
+    }
+    .titulo-form {
+        padding-left: 80px;
+        font-family: Inter;
+    }
+}
+
+.add {
+    position: fixed;
+    padding-top: 50vh;
+    padding-left: 95vw;
+}
+
+.boton-add {
+    background-color: #00669F;
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: inline-block;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 532px;
+    width: 300px;
+    margin: 30px;
+}
+
+.card-encabezado {
+    position: relative;
+    height: 194px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.batman {
+    background-image: url(../img/batmanTop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.harly {
+    background-image: url(../img/harleyTop.png);
+    background-size: cover;
+}
+
+.superman {
+    background-image: url(../img/supertmanTop.png);
+    background-size: cover;
+}
+
+.mmaravilla {
+    background-image: url(../img/mmaravillaTop.png);
+    background-size: cover;
+}
+
+.corazon {
+    margin-top: 15px;
+    margin-left: 21px;
+    position: relative;
+    width: 33px;
+    height: 29px;
+}
+
+.foto {
+    position: relative;
+    background-color: transparent;
+    top: 78px;
+    height: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img.circular {
+    border-radius: 50%;
+    border: 1px black;
+    width: 120;
+    height: 120px;
+}
+
+.card-contenido {
+    text-align: center;
+    background-color: #F3F3F3;
+    height: 336px;
+    /*border-radius: 0 0px 10px 10px;*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-contenido .datos {
+    height: 275px;
+}
+
+.nombre {
+    top: 597px;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 74px;
+}
+
+.descripcion {
+    padding: 10px 17px 10px 17px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card-boton {
+    border-radius: 3px;
+    background-color: #00669F;
+    border: 0px;
+    color: #F3F3F3;
+    padding: 15px 37px 15px 37px;
+}
+
+
+/* footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0px;
+    padding: 16px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    flex-wrap: wrap;
+}
+
+
+/* formularios */
+
+main {
+    color: #333333;
+}
+
+.login {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formularios .titulo-form {
+    width: 46%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.nombre-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+input {
+    background-color: #fff;
+    padding: 10px;
+    width: 450px;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: 0.5px;
+    margin: 10px;
+}
+
+textarea {
+    background-color: #fff;
+    padding: 10px;
+    width: 450px;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: 0.5px;
+    margin: 10px;
+}
+
+select {
+    background-color: #fff;
+    padding: 10px;
+    width: 473px;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: 0.5px;
+    margin: 10px;
+}
+
+.formularios form {
+    text-align: center;
+}
+
+.registro-link {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.registro-link a {
+    color: #00669F;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+
+/*registro*/
+
+.registro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.registro-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.registro-botones button {
+    width: 200px;
+}
+
+
+/*botones*/
+
+button {
+    font-family: Karla;
+    font-weight: 500;
+    background-color: #1CD1B0;
+    border-radius: 20px;
+    border: 0px;
+    width: 450px;
+    height: 39px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+button[type=reset] {
+    background-color: #888888;
+    color: #fff;
+}
+
+button[type=submit] {
+    background-color: #1CD1B0;
+}

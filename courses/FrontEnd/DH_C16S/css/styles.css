@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+* {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+
+/* header*/
+
+.descuentos {
+    background-color: #1CD1B0;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.titulo {
+    position: relative;
+    font-size: 25px;
+    background-color: #00669F;
+    padding: 15px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.titulo img {
+    width: 60px;
+}
+
+
+/*menu*/
+
+.menu {
+    background-color: #001D2D;
+    color: #fff;
+    font-size: 13px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    margin: 5px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a::after {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* contenido*/
+
+@media (min-width:320px) and (max-width:480px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .contenido {
+        min-width: 480px;
+    }
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+    footer .derechos {
+        font-size: 12px;
+        text-align: center;
+        width: 100vw;
+    }
+    footer .github {
+        text-align: center;
+        width: 100vw;
+    }
+    .add {
+        padding-left: 70vw;
+    }
+}
+
+@media (min-width:769px) {
+    .card {
+        display: inline-block;
+        font-family: Roboto;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 532px;
+        width: 300px;
+        margin: 30px;
+    }
+    .add {
+        padding-left: 80vw;
+    }
+}
+
+.add {
+    position: fixed;
+    padding-top: 50vh;
+    padding-left: 95vw;
+}
+
+.boton-add {
+    background-color: #00669F;
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: inline-block;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 532px;
+    width: 300px;
+    margin: 30px;
+}
+
+.card-encabezado {
+    position: relative;
+    height: 194px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.batman {
+    background-image: url(../img/batmanTop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.harly {
+    background-image: url(../img/harleyTop.png);
+    background-size: cover;
+}
+
+.superman {
+    background-image: url(../img/supertmanTop.png);
+    background-size: cover;
+}
+
+.mmaravilla {
+    background-image: url(../img/mmaravillaTop.png);
+    background-size: cover;
+}
+
+.corazon {
+    margin-top: 15px;
+    margin-left: 21px;
+    position: relative;
+    width: 33px;
+    height: 29px;
+}
+
+.foto {
+    position: relative;
+    background-color: transparent;
+    top: 78px;
+    height: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img.circular {
+    border-radius: 50%;
+    border: 1px black;
+    width: 120;
+    height: 120px;
+}
+
+.card-contenido {
+    text-align: center;
+    background-color: #F3F3F3;
+    height: 336px;
+    /*border-radius: 0 0px 10px 10px;*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-contenido .datos {
+    height: 275px;
+}
+
+.nombre {
+    top: 597px;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 74px;
+}
+
+.descripcion {
+    padding: 10px 17px 10px 17px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card-boton {
+    border-radius: 3px;
+    background-color: #00669F;
+    border: 0px;
+    color: #F3F3F3;
+    padding: 15px 37px 15px 37px;
+}
+
+
+/* footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0px;
+    padding: 16px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 80px;
+}
+
+footer .derechos {
+    text-align: right;
+    width: 60vw;
+}
+
+footer .github {
+    text-align: right;
+    width: 35vw;
+}
