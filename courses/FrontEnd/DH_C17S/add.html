@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 16S</title>
+    <link href="css/add.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6f2dfe4faf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="descuentos">Descuentos 20% en todos los productos</div>
+        <div class="titulo">
+            <img src="img/Group.png" alt="Logo tienda">
+            <p>Nombre tienda</p>
+
+        </div>
+    </header>
+    <main>
+        <div class="menu">
+            <nav>
+                <ul type="none">
+                    <li><a href="contacto.html">Contacto</a> </li>
+                    <li><a href="registro.html">Registrarme</a></li>
+                    <li><a href="login.html">Entrar</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <form action="" class="contenido">
+            <div class="row-center">
+                <h1>Añadí tu super!</h1>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <section class="row">
+
+                <div class="input-form">
+                    <label for="txt_nombre">*Nombre</label>
+                    <input type="text" id="txt_nombre" name="super_name">
+                </div>
+                <div class="input-form">
+                    <label for="txt_nombre">*Especie</label>
+                    <select name="" id="">
+                            <option value="1" selected>Especie</option>
+                            <option value="2">otro</option>
+                            <option value="3">otro</option>
+                        </select>
+                </div>
+            </section>
+            <section class="row">
+                <div class="input-form">
+                    <label for="txt_nombre">Fecha</label>
+                    <input type="date" id="txt_nombre" name="super_name">
+                </div>
+                <div class="input-form">
+                    <label for="file">Agregar Foto</label>
+                    <input type="file" id="file" name="file">
+                </div>
+
+            </section>
+
+            <section class="row">
+                <div class="input-form">
+                    <textarea name="" id="" cols="15" rows="14" placeholder="descripción"></textarea>
+                </div>
+                <div class="input-form">
+                    <fieldset>
+                        <div class="row">
+                            <label>Poderes</label>
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" value="1" name="poder" id="cb1"><label class="form_label" for="cb1"> Volar</label>
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" value="2" name="poder" id="cb2"><label class="form_label" for="cb2"> SuperInteligencia</label>
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" value="3" name="poder" id="cb3"><label class="form_label" for="cb3"> Vista de rayo láser</label>
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" value="4" name="poder" id="cb4"><label class="form_label" for="cb4"> Billetera gorda</label>
+                        </div>
+                    </fieldset>
+                    <hr>
+                    <fieldset>
+                        <div class="row">
+                            <label>Tipo de personaje</label>
+                        </div>
+                        <div class="row">
+                            <input type="radio" value="1" name="personaje" id="ch1"><label class="form_label" for="ch1"> Héroe / Heroina</label>
+                        </div>
+                        <div class="row">
+                            <input type="radio" value="2" name="personaje" id="ch2"><label class="form_label" for="ch2"> Villano / Villana</label>
+                        </div>
+
+                    </fieldset>
+                </div>
+
+            </section>
+            <section class="row-center">
+                <button type="submit">Añadir</button>
+            </section>
+
+
+
+        </form>
+
+
+
+    </main>
+    <footer>
+
+        <p>Todos los derechos reservados a FRONT END 1</p>
+
+    </footer>
+</body>
+
+</html>
