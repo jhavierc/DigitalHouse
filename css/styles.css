@@ -78,6 +78,45 @@ main {
 }
 
 
+/*new animation*/
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    background-color: rgba(223, 52, 86, 0.8);
+    ;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    right: -73px;
+    top: 24px;
+    color: #fff;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 /* cards */
 
 .card {

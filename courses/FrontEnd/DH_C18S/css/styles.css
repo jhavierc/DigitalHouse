@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* barra superior */
+
+.barrasuperior {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+    padding: 4px 20px 4px 90px;
+}
+
+.header-select-option {
+    padding-left: 20px;
+}
+
+
+/* Menu principal */
+
+.menuppal {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 50px;
+}
+
+.menuppal nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menuppal nav ul li {
+    padding-left: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* banner */
+
+.banner {
+    position: absolute;
+    width: 100%;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 521px;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-info h1 {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 9px 10px 9px 10px;
+    font-size: 30px;
+}
+
+.banner-info p {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.banner-info_b {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    width: 350px;
+}
+
+.banner-info_b button {
+    margin-top: 10px;
+    background: #F0A83E;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 15px 23px 15px 23px;
+    color: #fff;
+}
+
+
+/* content */
+
+.productos {
+    padding-top: 550px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #3C2313;
+}
+
+.productos ul {
+    display: flex;
+}
+
+.productos li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.productos .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productos .content .producto {
+    background-color: #FBFAF6;
+    text-align: center;
+    margin: 20px;
+    align-self: center;
+}
+
+.productos .content .producto p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #3C2313;
+}
+
+.productos .content .producto p.precio {
+    color: #F0A83E;
+    padding-bottom: 10px;
+}
+
+.productos .contact {
+    display: flex;
+    padding: 78px 341px 150px 341px;
+    background-color: red;
+}
+
+
+/* contacto */
+
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+.contacto h2 {
+    padding-bottom: 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form input {
+    height: 40px;
+    width: 340px;
+    margin-top: 10px;
+    background: #3C2313;
+    color: #fff;
+    font-size: 9px;
+    border: 0px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.contacto form .opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.contacto form button {
+    height: 34px;
+    width: 110px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 0px;
+    color: #fff;
+}
+
+.reset {
+    background: #8A8787;
+}
+
+.send {
+    background-color: #F0A83E;
+}
+
+*:focus-visible {
+    outline: none;
+}
+
+
+/* footer*/
+
+footer {
+    position: relative;
+}
+
+.informacion {
+    background-color: #3C2313;
+    height: 350px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.informacion .detalle {
+    display: flex;
+    flex-direction: row;
+}
+
+.informacion .detalle dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.informacion .detalle img {
+    padding-right: 20px;
+}
+
+.texto-icon {
+    font-size: 12px;
+    color: #8A8787;
+}
+
+.barrafooter {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+
+.logofooter {
+    position: absolute;
+    right: 70px;
+    top: 150px
+}
+
+
+/* media queries*/
+
+@media (max-width:620px) {
+    .barrasuperior {
+        display: none;
+    }
+    .menuppal nav {
+        display: none;
+    }
+    .fa-bars:before {
+        font-size: 20px;
+        color: #fff;
+        display: block;
+    }
+    .banner-info_b {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 20px;
+        width: 350px;
+    }
+}
+
+@media (max-width:480px) {
+    .contacto form {
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto form button {
+        width: 199px;
+    }
+    .logofooter {
+        position: absolute;
+        left: 140px;
+        top: 0px
+    }
+}
+
+@media (min-width:620px) {
+    .fa-bars:before {
+        display: none;
+    }
+}
