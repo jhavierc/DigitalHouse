@@ -150,6 +150,7 @@ button {
     background: var(--white-color);
     width: 265px;
     height: 322px;
+    margin: 20px;
 }
 
 
