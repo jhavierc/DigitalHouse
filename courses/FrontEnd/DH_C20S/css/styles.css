@@ -130,13 +130,20 @@ button {
 
 .content {
     background: var(--grey-color);
-    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* productos destacados*/
 
 .pdestacados {
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 .pdestacados section {
@@ -151,6 +158,80 @@ button {
     width: 265px;
     height: 322px;
     margin: 20px;
+    border-radius: 5px;
+}
+
+.contenido {
+    height: 70%;
+    border-bottom: 2px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido img {
+    width: 45%;
+}
+
+.detalle_precio {
+    padding-left: 10px;
+    padding-top: 21px;
+}
+
+.detalle_precio .cant {
+    font-size: 13px;
+}
+
+.detalle_precio .send {
+    font-size: 10px;
+    color: var(--third-color);
+}
+
+
+/* Productos estrella */
+
+.pestrella {
+    padding-top: 10px;
+    padding-bottom: 84px;
+}
+
+.pestrella section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pestrella section div {
+    width: 361px;
+    height: 135px;
+    background-color: red;
+    border-radius: 5px;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pestrella section article h2 {
+    padding-right: 14px;
+}
+
+.sillas {
+    background-image: url(../img/banner_silla.png);
+    background-size: cover;
+}
+
+.pcs {
+    background-image: url(../img/banner_pc.png);
+    background-size: cover;
 }
 
 
