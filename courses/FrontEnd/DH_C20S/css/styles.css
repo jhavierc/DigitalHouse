@@ -97,7 +97,6 @@ nav ul li a.car {
 .fa-bars {
     color: var(--white-color);
     font-size: 24px;
-    display: none;
 }
 
 
@@ -290,10 +289,11 @@ footer {
     main {
         min-width: 360px;
     }
-    .fa-bars:before {
+    .fa-bars {
         font-size: 20px;
         color: #fff;
         display: block;
+        padding-right: 10px;
     }
     .menu nav {
         display: none;
@@ -312,16 +312,20 @@ footer {
         padding-left: 10px;
         padding-top: 10px;
     }
+    .menu {
+        display: none;
+    }
 }
 
 @media (max-width:480px) {
     main {
         min-width: 360px;
     }
-    .fa-bars:before {
+    .fa-bars {
         font-size: 20px;
         color: #fff;
         display: block;
+        padding-right: 10px;
     }
     .menu nav {
         display: none;
@@ -334,10 +338,14 @@ footer {
         padding-left: 10px;
         padding-top: 10px;
     }
+    .menu {
+        display: none;
+    }
 }
 
 @media (min-width:620px) {
-    .fa-bars:before {
+    .fa-bars {
         display: none;
+        color: var(--white-color);
     }
 }
