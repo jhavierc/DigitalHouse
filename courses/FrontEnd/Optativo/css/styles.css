@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+:root {
+    --neutral-color: #fff;
+    --primary-color: #F3603B;
+    --secondary-color: #232C50;
+    --third-color: #837d9b;
+    --fouth-color: #1E1E26;
+    --fifth-color: #FAFAFA;
+    --sixth-color: #B9B9C1;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header img {
+    padding-left: 0px;
+    width: 145.54px;
+    height: 23.74px;
+}
+
+header ul {
+    font-size: 13px;
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+button {
+    background: var(--primary-color);
+    color: var(--neutral-color);
+    width: 134px;
+    height: 44px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* contenido */
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 50%;
+}
+
+.content img {
+    width: 110%;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: var(--secondary-color)
+}
+
+.bring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bring p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 75%;
+    font-size: 14px;
+}
+
+.izquierda {
+    width: 49%;
+    left: 0px;
+}
+
+.derecha {
+    width: 49%;
+    right: 0px;
+}
+
+h2 {
+    font-size: 34px;
+    color: var(--secondary-color)
+}
+
+.difference p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 75%;
+    font-size: 14px;
+}
+
+
+/* lista ordenada personalizada */
+
+.items {
+    font-size: 14px;
+    width: 100%;
+    z-index: 1;
+}
+
+.items ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.items li {
+    counter-increment: my-awesome-counter;
+    margin: 0.25rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.items li::before {
+    content: '0'counter(my-awesome-counter);
+    background: var(--primary-color);
+    width: 55px;
+    height: 33px;
+    border-radius: 20px;
+    display: inline-block;
+    line-height: 2rem;
+    color: var(--neutral-color);
+    text-align: center;
+}
+
+.li_title {
+    color: var(--secondary-color);
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.description {
+    width: 437px;
+    padding-bottom: 15px;
+    padding-left: 5rem;
+    color: var(--third-color);
+    line-height: 26px;
+    font-size: 12px;
+}
+
+
+/* cards*/
+
+.recomendartions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cards {
+    display: flex;
+    padding-top: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--fifth-color);
+    Width: 400px;
+    Height: 119px;
+}
+
+.card p {
+    color: var(--sixth-color);
+    font-size: 12px;
+}
+
+.foto {
+    position: relative;
+    background-color: transparent;
+    top: 0px;
+    height: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img.circular {
+    border-radius: 50%;
+    border: 1px black;
+    width: 60;
+    height: 60px;
+}

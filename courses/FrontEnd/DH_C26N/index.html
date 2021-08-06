@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 26 - Bootstrap</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/stiles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CARLOS CEPEDA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                Menú <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#portfolio">PORTAFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobremi">SOBRE MÍ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulario-contacto">CONTACTO</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <header class="masthead text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+
+            <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="..." />
+
+            <h1 class="masthead-heading text-uppercase mb-0">Carlos Cepeda</h1>
+
+            <div class="division blanco">
+                <div class="division-line"></div>
+                <div class="division-icon"><i class="fas fa-star"></i></div>
+                <div class="division-line"></div>
+            </div>
+            <p class="masthead-subheading font-weight-light mb-0">Maquetador/a Web - Entusiaste - Autodidacta</p>
+        </div>
+    </header>
+
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portafolio</h2>
+
+            <div class="division">
+                <div class="division-line"></div>
+                <div class="division-icon"><i class="fas fa-star"></i></div>
+                <div class="division-line"></div>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/lemon-pie.jpeg" alt="lemon pie" />
+                        <h4>Lemon Pie</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/CVBatman.png" alt="cv batman" />
+                        <h4>CV Batman</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+
+                        <img class="img-fluid" src="img/super.png" alt="Supers" />
+                        <h4>Súpers</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/petshop.jpeg" alt="pet shop" />
+                        <h4>Pet Shop</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/piza.jpeg" alt="Pizza" />
+                        <h4>Pizzería</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/gameshop.jpeg" alt="Game" />
+                        <h4>Game Shop</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section sobremi text-white mb-0" id="sobremi">
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-white">Sobre mi</h2>
+            <div class="division blanco">
+                <div class="division-line"></div>
+                <div class="division-icon"><i class="fas fa-star"></i></div>
+                <div class="division-line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus, odit nam necessitatibus accusamus at repudiandae velit. Similique repudiandae ut iste eligendi optio quod possimus mollitia doloribus vitae fugit. Libero!
+                        Labore, eaque accusantium doloribus aut quasi excepturi dolorem itaque!.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex suscipit corporis laudantium. Cumque voluptas, perspiciatis optio, suscipit sed, repellat laborum consequuntur ut ab quidem eos odio aspernatur voluptates ratione possimus?</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="#">
+                    <i class="fas fa-download me-2"></i> Descargar CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="contact">
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactame</h2>
+
+            <div class="division">
+                <div class="division-line"></div>
+                <div class="division-icon"><i class="fas fa-star"></i></div>
+                <div class="division-line"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+
+                    <form id="formulario-contacto">
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Ingresa el nombre" data-sb-validations="required" />
+                            <label for="name">Nombre completo</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="info@micv.com" data-sb-validations="required,email" />
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(+57) 456-7890" data-sb-validations="required" />
+                            <label for="phone">Número de teléfono</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Ingrese el mensaje aqui!" style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+
+
+                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Ubicación</h4>
+                    <p class="lead mb-0">
+                        Calle 1 # 1-2
+                        <br /> Medellín, COL
+                    </p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">SIGAMOS CONECTADOS</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-github"></i></a>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Sobre mí</h4>
+                    <p class="lead mb-0">
+                        Soy una persona proactiva y me gusta desarrollar. Con conocimientos en html, CSS, Bootstrap
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright py-4">
+        <div class="container"><small>Copyright &copy; Mi Sitio 2021</small></div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Lemon Pie</h2>
+
+                                <div class="division">
+                                    <div class="division-line"></div>
+                                    <div class="division-icon"><i class="fas fa-star"></i></div>
+                                    <div class="division-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="img/lemon-pie.jpeg" alt="..." />
+
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">CV Batman</h2>
+
+                                <div class="division">
+                                    <div class="division-line"></div>
+                                    <div class="division-icon"><i class="fas fa-star"></i></div>
+                                    <div class="division-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="img/CVBatman.png" alt="..." />
+
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Super Héroes</h2>
+
+                                <div class="division">
+                                    <div class="division-line"></div>
+                                    <div class="division-icon"><i class="fas fa-star"></i></div>
+                                    <div class="division-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="img/super.png" alt="..." />
+
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pet Shop</h2>
+
+                                <div class="division">
+                                    <div class="division-line"></div>
+                                    <div class="division-icon"><i class="fas fa-star"></i></div>
+                                    <div class="division-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="img/petshop.jpeg" alt="..." />
+
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pizzería</h2>
+
+                                <div class="division">
+                                    <div class="division-line"></div>
+                                    <div class="division-icon"><i class="fas fa-star"></i></div>
+                                    <div class="division-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="img/piza.jpeg" alt="..." />
+
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Game Shop</h2>
+
+                                <div class="division">
+                                    <div class="division-line"></div>
+                                    <div class="division-icon"><i class="fas fa-star"></i></div>
+                                    <div class="division-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="img/gameshop.jpeg" alt="..." />
+
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
