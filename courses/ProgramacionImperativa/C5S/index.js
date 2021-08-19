@@ -1,5 +1,22 @@
-//---Funciones simples---
+//Micro desafios
 
+//1:
+function test1(x, y) {
+    return y - x;
+}
+console.log(test1(5, 12));
+console.log(test1(12, 5));
+
+//2:
+function test2(x, y) {
+    return x * 2;
+    console.log(x);
+    return x / y;
+}
+console.log(test2(5, 12));
+
+
+//---Funciones simples---
 //1:
 function convertirPulgadasACentimetros(num) {
     return num * 2.54;
