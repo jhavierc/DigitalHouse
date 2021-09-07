@@ -47,6 +47,7 @@ let Banco = {
             if (this.clientes[i].titularCuenta == titular) {
                 this.clientes[i].saldoEnPesos += monto;
                 console.log(`Depósito realizado, su nuevo saldo es  ${this.clientes[i].saldoEnPesos}`);
+                break;
             }
         }
     },
