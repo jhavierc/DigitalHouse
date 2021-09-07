@@ -60,8 +60,7 @@ let Banco = {
                 } else {
                     console.log("Fondos insuficientes");
                 }
-
-
+                break;
             }
         }
     }
