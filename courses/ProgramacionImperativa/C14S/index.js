@@ -233,8 +233,8 @@ inmobiliaria.departamentosDisponibles();
 console.log(o);
 
 console.log(v, oo + " D. buscarPorId");
-let depto = inmobiliaria.buscarPorId(1);
-console.log(depto);
+let depto = inmobiliaria.buscarPorId(100);
+console.log(` ${depto == undefined?'El departamento no existe':depto}`);
 console.log(o);
 
 console.log(v, oo + "  E. buscarPorPrecio");
