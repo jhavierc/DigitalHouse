@@ -1,0 +1,1 @@
+Esta es una pruba de lectura y escritura de archivos
