@@ -193,7 +193,7 @@ const inmobiliaria = {
     buscarPorPrecio: function(precio) {
         let deptos = []
         for (let i = 0; i < this.departamentos.length; i++) {
-            if (this.departamentos[i].precioAlquiler <= precio) {
+            if (this.departamentos[i].disponible && this.departamentos[i].precioAlquiler <= precio) {
                 deptos.push(this.departamentos[i]);
             }
 
