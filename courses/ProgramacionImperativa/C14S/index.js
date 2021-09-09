@@ -175,12 +175,14 @@ const inmobiliaria = {
         }
     },
     departamentosDisponibles: function() {
+        let deptos = []
         for (let i = 0; i < this.departamentos.length; i++) {
             if (this.departamentos[i].disponible) {
+                deptos.push(this.departamentos[i]);
                 console.log(JSON.stringify(this.departamentos[i]));
             }
-
         }
+        return deptos;
     },
     buscarPorId: function(idDepartamento) {
         for (let i = 0; i < this.departamentos.length; i++) {
