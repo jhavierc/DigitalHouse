@@ -224,6 +224,36 @@ const inmobiliaria = {
             this.departamentos[i].propietarios = cambiarTexto(this.departamentos[i].propietarios);
         }
         return this.departamentos;
+    },
+    alquilar: function(deptoId) {
+        for (let i = 0; i < this.departamentos.length; i++) {
+            if (this.departamentos[i].id == deptoId) {
+                this.departamentos[i].disponible = false;
+                break;
+            }
+        }
+    },
+    filtrarPetFriendly: function() {
+        let deptos = []
+        for (let i = 0; i < this.departamentos.length; i++) {
+            if (this.departamentos[i].aceptaMascotas) {
+                deptos.push(this.departamentos[i]);
+            }
+        }
+        return deptos;
+    },
+    rebajasPorNoAlquiler: function() {
+        let deptos = this.departamentos;
+        for (let i = 0; i < deptos.length; i++) {
+            if (!deptos[i].alquilar) {
+                let descuento = (deptos[i].precioAlquiler * 10) / 100;
+                deptos[i].precioAlquiler = deptos[i].precioAlquiler - descuento;
+            }
+        }
+        return deptos;
+    },
+    buscarPorPropietarios: function() {
+
     }
 }
 
@@ -266,4 +296,18 @@ console.log(v, oo + " G. simplificarPropietarios");
 console.log(inmobiliaria.simplificarPropietarios());
 console.log(o);
 
-console.log(cambiarTexto("Dueños: Martín Gutierrez y José Torres"));
+console.log(v, oo + " H. alquilar");
+inmobiliaria.alquilar(1);
+console.log(o);
+
+console.log(v, oo + " I. filtrarPetFriendly");
+console.log(inmobiliaria.filtrarPetFriendly());
+console.log(o);
+
+console.log(v, oo + " J. rebajasPorNoAlquiler");
+console.log(inmobiliaria.rebajasPorNoAlquiler());
+console.log(o);
+
+console.log(v, oo + " K. buscarPorPropietarios");
+//aqui llamado
+console.log(o);
