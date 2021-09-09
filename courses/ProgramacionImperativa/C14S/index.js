@@ -215,7 +215,7 @@ const inmobiliaria = {
     precioConImpuesto: function(impuesto) {
         let deptos = this.departamentos;
         for (let i = 0; i < deptos.length; i++) {
-            deptos[i].precioAlquiler = deptos[i].precioAlquiler + ((deptos[i].precioAlquiler * impuesto) / 100);
+            deptos[i].precioAlquiler += ((deptos[i].precioAlquiler * impuesto) / 100);
         }
         return deptos;
     },
