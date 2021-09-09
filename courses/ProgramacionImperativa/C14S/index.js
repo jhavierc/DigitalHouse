@@ -221,15 +221,17 @@ const inmobiliaria = {
     },
     simplificarPropietarios: function() {
         for (let i = 0; i < this.departamentos.length; i++) {
-            this.departamentos[i].propietarios = this.departamentos[i].propietarios.replace("Dueños", "Prop.");
-            this.departamentos[i].propietarios = this.departamentos[i].propietarios.replace("Dueño", "Prop.");
-            this.departamentos[i].propietarios = this.departamentos[i].propietarios.replace("Dueñas", "Prop.");
-            this.departamentos[i].propietarios = this.departamentos[i].propietarios.replace("Dueña", "Prop.");
+            this.departamentos[i].propietarios = cambiarTexto(this.departamentos[i].propietarios);
         }
         return this.departamentos;
     }
 }
 
+function cambiarTexto(texto) {
+    let indice = texto.indexOf(":");
+    let cadena = texto.slice(indice)
+    return "Prop." + cadena;
+}
 
 /******************************/
 /* Ejecución de las consignas */
@@ -263,3 +265,5 @@ console.log(v, oo + " G. simplificarPropietarios");
 // Ejecución aquí
 console.log(inmobiliaria.simplificarPropietarios());
 console.log(o);
+
+console.log(cambiarTexto("Dueños: Martín Gutierrez y José Torres"));
