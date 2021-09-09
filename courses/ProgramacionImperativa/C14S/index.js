@@ -198,6 +198,16 @@ const inmobiliaria = {
             }
 
         }
+        /* Opcion 2 */
+        /*
+        let deptosDisponibles = this.departamentosDisponibles()
+        for (let i = 0; i < deptosDisponibles.length; i++) {
+            if (deptosDisponibles[i].precioAlquiler <= precio) {
+                deptos.push(deptosDisponibles[i]);
+            }
+
+        }
+        */
         return deptos;
     },
     precioConImpuesto: function(impuesto) {
