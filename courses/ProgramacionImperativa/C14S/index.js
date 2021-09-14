@@ -266,6 +266,8 @@ function cambiarTexto(texto) {
 /******************************/
 /* Ejecución de las consignas */
 /******************************/
+
+/*
 console.table([{ alumno: nombre, tema: tema }]);
 
 console.log(v, "\n" + oo + "   B. listarDepartamentos");
@@ -311,3 +313,14 @@ console.log(o);
 console.log(v, oo + " K. buscarPorPropietarios");
 //aqui llamado
 console.log(o);
+
+*/
+
+//console.log(departamentos);
+
+let copia = departamentos;
+console.log(departamentos[0]);
+copia[0].propietarios = "Carlos Cepeda";
+
+console.log(departamentos[0]);
+console.log(copia[0]);
