@@ -3,7 +3,7 @@ const fs = require('fs')
 
 //1 leer archivos
 function leerArchivo(archivo) {
-    let contenido = fs.readFileSync(archivo, 'utf-8')
+    let contenido = fs.readFileSync(__dirname + "/" + archivo, 'utf-8')
     if (contenido) {
         return JSON.parse(contenido);
     }
@@ -12,7 +12,7 @@ function leerArchivo(archivo) {
 
 //2 escribir archivos
 function escribirArchivo(contenido, archivo) {
-    fs.writeFileSync(archivo, JSON.stringify(contenido))
+    fs.writeFileSync(__dirname + "/" + archivo, JSON.stringify(contenido))
 }
 
 
