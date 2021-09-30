@@ -1,7 +1,7 @@
 let vehiculos = [
+    { "marca": "Dodge", "modelo": "Caravan", "anio": 2011, "precio": 317621, "patente": "RDH130", "vendido": true },
     { "marca": "Dodge", "modelo": "Caravan", "anio": 2001, "precio": 317621, "patente": "RDH130", "vendido": true },
-    { "marca": "Dodge", "modelo": "Caravan", "anio": 2001, "precio": 317621, "patente": "RDH130", "vendido": true },
-    { "marca": "Dodge", "modelo": "Caravan", "anio": 2001, "precio": 317621, "patente": "RDH130", "vendido": true }
+    { "marca": "Dodge", "modelo": "Caravan", "anio": 2008, "precio": 317621, "patente": "RDH130", "vendido": true }
 ];
 
 //Aqui comparten memoria, cada elemento de copia apunta a la misma posicion de memoria de vehiculos (array original)
@@ -29,3 +29,11 @@ function copiarArray(arrayOriginal) {
     });
     return arrayNuevo;
 }
+
+console.info("----------------");
+nuevo.sort((a, b) => a.anio - b.anio);
+console.log(nuevo);
+
+console.log("----------------");
+nuevo.sort((a, b) => b.anio - a.anio);
+console.log(nuevo);

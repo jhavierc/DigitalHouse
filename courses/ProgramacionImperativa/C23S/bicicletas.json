@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "ciclista": "Maure Benko",
+    "puntaje": 6.29,
+    "marca": "Specialized",
+    "rodado": 24,
+    "peso": 99.24799999999999,
+    "largo": 116.17,
+    "dopaje": true
+  },
+  {
+    "id": 2,
+    "ciclista": "Burt Alday",
+    "puntaje": 1.04,
+    "marca": "Giant",
+    "rodado": 28,
+    "peso": 7.5,
+    "largo": 99.36,
+    "dopaje": false
+  },
+  {
+    "id": 3,
+    "ciclista": "Maxy Petraitis",
+    "puntaje": 6.3,
+    "marca": "Giant",
+    "rodado": 24,
+    "peso": 8,
+    "largo": 109.43,
+    "dopaje": false
+  },
+  {
+    "id": 4,
+    "ciclista": "Webb Grinnell",
+    "puntaje": 5.44,
+    "marca": "Orbea",
+    "rodado": 28,
+    "peso": 6.901,
+    "largo": 105.19,
+    "dopaje": false
+  },
+  {
+    "id": 5,
+    "ciclista": "Daria Fetherstone",
+    "puntaje": 0.15,
+    "marca": "Merida",
+    "rodado": 28,
+    "peso": 7.569,
+    "largo": 101.65,
+    "dopaje": false
+  },
+  {
+    "id": 6,
+    "ciclista": "Gay Romayn",
+    "puntaje": 1.33,
+    "marca": "Merida",
+    "rodado": 24,
+    "peso": 9.196,
+    "largo": 110.57,
+    "dopaje": false
+  },
+  {
+    "id": 7,
+    "ciclista": "Benita Fosserd",
+    "puntaje": 9.38,
+    "marca": "Merida",
+    "rodado": 24,
+    "peso": 9.86,
+    "largo": 112.45,
+    "dopaje": false
+  },
+  {
+    "id": 8,
+    "ciclista": "Jo-anne Coker",
+    "puntaje": 6.15,
+    "marca": "Orbea",
+    "rodado": 28,
+    "peso": 7.769,
+    "largo": 103.56,
+    "dopaje": true
+  },
+  {
+    "id": 9,
+    "ciclista": "Heath Ranscome",
+    "puntaje": 1.74,
+    "marca": "Specialized",
+    "rodado": 26,
+    "peso": 7.333,
+    "largo": 93.15,
+    "dopaje": false
+  },
+  {
+    "id": 10,
+    "ciclista": "Dane Lindhe",
+    "puntaje": 7.8,
+    "marca": "Giant",
+    "rodado": 24,
+    "peso": 8.141,
+    "largo": 90.29,
+    "dopaje": false
+  }
+]
