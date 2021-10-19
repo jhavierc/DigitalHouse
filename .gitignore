@@ -42,3 +42,9 @@ yarn-error.log*
 
 .vscode/settings.json
 
+*/out/*
+*/target/*
+*.idea
+/target
+/out
+
