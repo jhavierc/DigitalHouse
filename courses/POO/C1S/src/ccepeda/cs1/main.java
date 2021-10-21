@@ -1,3 +1,5 @@
+package ccepeda.cs1;
+
 public class main {
 
     /**
