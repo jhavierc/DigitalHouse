@@ -8,12 +8,12 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese su nombre jugador 1 :");
+        System.out.println("Ingrese el nombre del jugador 1 :");
         String jugador1 = scanner.next();
-        System.out.println("Ingrese su nombre jugador 2 :");
+        System.out.println("Ingrese el nombre del jugador 2 :");
         String jugador2 = scanner.next();
 
-        System.out.println("El ganador es: " + jugar(jugador1, jugador2));
+        System.out.println("El ganador es: " + jugar(jugador1, jugador2) +", fin del juego!!!");
     }
 
     public static String jugar(String jugador1, String jugador2) {
@@ -21,14 +21,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String ganador = "";
         boolean hayGanador = false;
-        //piedra = 1; papel = 2; tijera = 3;
         int turno=1;
 
         while (!hayGanador) {
             System.out.println("===Turno"+turno+"====");
-            System.out.println("Ingresar jugada (piedra = 1; papel = 2; tijera = 3) " + jugador1);
+            System.out.println("["+ jugador1.toUpperCase() +"] > ingresar número jugada (1=piedra, 2=papel, 3=tijera) :");
             int jugada = scanner.nextInt();
-            System.out.println("Ingresar jugada (piedra = 1; papel = 2; tijera = 3) " + jugador2);
+            System.out.println("["+ jugador2.toUpperCase() +"] > ingresar número jugada (1=piedra, 2=papel, 3=tijera) :");
             int jugada2 = scanner.nextInt();
 
             if (jugada != jugada2) {
