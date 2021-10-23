@@ -31,7 +31,7 @@ public class Main {
             int jugada2 = scanner.nextInt();
 
             if ((jugada < 0 || jugada > 3) || (jugada2 < 0 || jugada2 > 3)) {
-                System.out.println("Numero de juagada ingresado no válido!!!");
+                System.out.println("Numero de jugada ingresado no válido!!!");
                 System.out.print("\033[H\033[2J");
             } else {
                 if (jugada != jugada2) {
