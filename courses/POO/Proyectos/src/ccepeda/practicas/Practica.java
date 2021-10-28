@@ -1,9 +1,9 @@
-package ccepeda.test;
+package ccepeda.practicas;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class main {
+public class Practica {
 
 
     public static void main(String[] args) {

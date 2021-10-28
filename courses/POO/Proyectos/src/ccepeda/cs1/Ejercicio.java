@@ -1,6 +1,6 @@
 package ccepeda.cs1;
 
-public class main {
+public class Ejercicio {
 
     /**
      * @param args
