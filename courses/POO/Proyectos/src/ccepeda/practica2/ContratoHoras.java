@@ -26,6 +26,7 @@ public class ContratoHoras extends Contrato {
         this.precio = precio;
     }
 
+    @Override
     public float calcularCosto() {
         float calculo = this.precio * this.hora;
         float total = getPrecioFijo() + calculo;

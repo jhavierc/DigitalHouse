@@ -6,6 +6,7 @@ public class ContratoEstandar extends Contrato {
         super();
     }
 
+    @Override
     public float calcularCosto() {
         return getPrecioFijo();
     }

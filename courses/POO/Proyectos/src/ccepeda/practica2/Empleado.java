@@ -4,19 +4,18 @@ public class Empleado {
 
     private String nombre;
     private int documento;
-    private ContratoEstandar contratoEstandar;
-    private ContratoHoras contratoHoras;
+    private Contrato contrato;
 
     public Empleado(String nombre, int documento, ContratoEstandar contratoEstandar) {
         this.nombre = nombre;
         this.documento = documento;
-        this.contratoEstandar = contratoEstandar;
+        this.contrato = contratoEstandar;
     }
 
     public Empleado(String nombre, int documento, ContratoHoras contratoHoras) {
         this.nombre = nombre;
         this.documento = documento;
-        this.contratoHoras = contratoHoras;
+        this.contrato = contratoHoras;
     }
 
     public String getNombre() {
@@ -35,20 +34,12 @@ public class Empleado {
         this.documento = documento;
     }
 
-    public ContratoEstandar getContratoEstandar() {
-        return contratoEstandar;
+    public Contrato getContrato() {
+        return contrato;
     }
 
-    public void setContratoEstandar(ContratoEstandar contratoEstandar) {
-        this.contratoEstandar = contratoEstandar;
-    }
-
-    public ContratoHoras getContratoHoras() {
-        return contratoHoras;
-    }
-
-    public void setContratoHoras(ContratoHoras contratoHoras) {
-        this.contratoHoras = contratoHoras;
+    public void setContrato(Contrato contrato) {
+        this.contrato = contrato;
     }
 
     @Override
@@ -56,8 +47,7 @@ public class Empleado {
         return "Empleado{" +
                 "nombre='" + nombre + '\'' +
                 ", documento=" + documento +
-                ", contratoEstandar=" + contratoEstandar +
-                ", contratoHoras=" + contratoHoras +
+                ", contrato=" + contrato +
                 '}';
     }
 }

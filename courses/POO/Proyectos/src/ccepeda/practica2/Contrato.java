@@ -2,7 +2,7 @@ package ccepeda.practica2;
 
 import java.util.Date;
 
-public class Contrato {
+public abstract class Contrato {
 
     private Date fechaInicio;
     private Date fechaFin;
@@ -31,6 +31,8 @@ public class Contrato {
     public void setPrecioFijo(float precioFijo) {
         this.precioFijo = precioFijo;
     }
+
+    public abstract float calcularCosto();
 
     @Override
     public String toString() {

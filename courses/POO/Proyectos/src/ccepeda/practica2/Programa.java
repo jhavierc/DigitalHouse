@@ -25,9 +25,9 @@ public class Programa {
         proyecto1.getListaEmpleados().add(empleado3);
 
 
-        System.out.println("Costo proyecto empleado 1 :" + empleado1.getContratoEstandar().calcularCosto());
-        System.out.println("Costo proyecto empleado 2 :" + empleado3.getContratoEstandar().calcularCosto());
-        System.out.println("Costo proyecto empleado 3 :" + empleado2.getContratoHoras().calcularCosto());
+        System.out.println("Costo proyecto empleado 1 :" + empleado1.getContrato().calcularCosto());
+        System.out.println("Costo proyecto empleado 2 :" + empleado3.getContrato().calcularCosto());
+        System.out.println("Costo proyecto empleado 3 :" + empleado2.getContrato().calcularCosto());
 
         System.out.println("Horas hombre proyecto :" + proyecto1.calcularHorasHombre());
 

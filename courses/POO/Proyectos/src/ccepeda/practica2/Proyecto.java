@@ -61,10 +61,8 @@ public class Proyecto {
     public float calcularCostoTotalProyecto() {
         float totalProyecto = 0;
         for (int i = 0; i < this.getListaEmpleados().size(); i++) {
-            if (this.getListaEmpleados().get(i).getContratoEstandar() != null) {
-                totalProyecto += this.getListaEmpleados().get(i).getContratoEstandar().calcularCosto();
-            } else {
-                totalProyecto += this.getListaEmpleados().get(i).getContratoHoras().calcularCosto();
+            if (this.getListaEmpleados().get(i).getContrato() != null) {
+                totalProyecto += this.getListaEmpleados().get(i).getContrato().calcularCosto();
             }
         }
         return totalProyecto;
