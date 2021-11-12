@@ -27,7 +27,7 @@ public class Banco {
 
         System.out.println(cliente.toString());
 
-        System.out.println(">>>>>Cliente 1 <<<<<");
+        System.out.println(">>>>>Cliente 2 <<<<<");
         Cliente cliente2 = new Cliente();
         cliente2.setNombre("Matth");
         cliente2.setApellido("Cepeda");
@@ -37,6 +37,8 @@ public class Banco {
 
         Cuenta cuenta2 = new CajaCorriente(5000);
         cliente2.setCuenta(cuenta2);
+
+        System.out.println("Monto Autorizado :" + ((CajaCorriente) cuenta2).getMontoAutorizado());
 
         System.out.println(cliente2.toString());
 

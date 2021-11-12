@@ -8,6 +8,14 @@ public class CajaCorriente extends Cuenta {
         this.montoAutorizado = montoAutorizado;
     }
 
+    public int getMontoAutorizado() {
+        return montoAutorizado;
+    }
+
+    public void setMontoAutorizado(int montoAutorizado) {
+        this.montoAutorizado = montoAutorizado;
+    }
+
     @Override
     public void extraer(int valor) {
         if (super.getSaldo() < valor) {
