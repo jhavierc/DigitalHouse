@@ -24,10 +24,14 @@ public class Contenedor implements Comparable<Contenedor> {
 
     @Override
     public int compareTo(Contenedor o) {
-        return this.identificacion-o.identificacion;
+        return this.identificacion - o.identificacion;
     }
 
     public boolean isPeligroso() {
         return peligroso;
+    }
+
+    public boolean procedenciaDesconocida() {
+        return nombrePaisProcedencia == "Desconocida";
     }
 }

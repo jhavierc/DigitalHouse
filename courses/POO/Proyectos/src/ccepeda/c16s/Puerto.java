@@ -11,21 +11,21 @@ public class Puerto {
         this.listaContendores = new ArrayList<>();
     }
 
-    public void listarContenedores(){
+    public void listarContenedores() {
         this.listaContendores.sort(null);
         for (Contenedor contenedor : listaContendores) {
             System.out.println(contenedor);
         }
     }
 
-    public void ingresarContenedor(Contenedor contenedor){
+    public void ingresarContenedor(Contenedor contenedor) {
         this.listaContendores.add(contenedor);
     }
 
-    public int cantidadContenedoresPeligrosos(){
-        int contador=0;
+    public int cantidadContenedoresPeligrosos() {
+        int contador = 0;
         for (Contenedor contenedor : listaContendores) {
-            if(contenedor.isPeligroso()){
+            if (contenedor.procedenciaDesconocida() && contenedor.isPeligroso()) {
                 contador++;
             }
         }
