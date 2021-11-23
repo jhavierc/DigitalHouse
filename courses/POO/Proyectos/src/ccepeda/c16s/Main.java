@@ -9,7 +9,7 @@ public class Main {
         Contenedor contenedor1 = new Contenedor(123, "China", false);
         Contenedor contenedor2 = new Contenedor(333, "Japon", false);
         Contenedor contenedor3 = new Contenedor(555, "EEUU", true);
-        Contenedor contenedor4 = new Contenedor(444, "Rusia", true);
+        Contenedor contenedor4 = new Contenedor(444, "Desconocida", true);
         Contenedor contenedor5 = new Contenedor(777, "España", false);
 
         System.out.println("=== Lista de contenendores del puerto ===");
