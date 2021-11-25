@@ -7,6 +7,9 @@
     "start": "webpack app.js --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [
     "js",
     "javascript",
@@ -24,5 +27,8 @@
   "devDependencies": {
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "jest": "^27.3.1"
   }
 }
