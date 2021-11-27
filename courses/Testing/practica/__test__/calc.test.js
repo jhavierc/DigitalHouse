@@ -1,6 +1,6 @@
 //const { expect } = require('@jest/globals');
 //const { number, describe } = require('yargs');
-const { sumar, restar, multiplicar, division } = require('../calc');
+const { sumar, restar, multiplicar, division, login, lista } = require('../calc');
 
 describe('Pruebas suma', () => {
 
@@ -64,4 +64,29 @@ describe('Pruebas división', () => {
     test('Division erronea', () => {
         expect(division(12, 0)).not.toBe(12);
     })
+})
+
+describe('Pruebas login', () => {
+
+    test('Usuario incorrecto', () => {
+        expect(login(null, "asd")).toBeFalsy();
+    })
+
+    test('Passeword correcto', () => {
+        expect(login("carlos", null)).toBeFalsy();
+    })
+
+    test('Datos correctos', () => {
+        expect(login("carlos", "asc")).toBe('Bienvenido : carlos');
+    })
+
+})
+
+
+describe('Prueba listas', () => {
+
+    test('Dato en lista', () => {
+        expect(lista()).toContain('milk');
+    })
+
 })

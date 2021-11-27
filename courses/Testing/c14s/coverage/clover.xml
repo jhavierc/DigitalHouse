@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1637809383674" clover="3.2.0">
+  <project timestamp="1637809383674" name="All files">
+    <metrics statements="20" coveredstatements="12" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="2" elements="33" coveredelements="22" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+    <file name="util.js" path="/Users/ccepeda/Documents/Tech Developer/DigitalHouse/courses/Testing/c14s/util.js">
+      <metrics statements="20" coveredstatements="12" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="22" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,18 +1,19 @@
 {
-  "name": "calculadora",
-  "version": "1.0.0",
-  "description": "ejemplo testing",
-  "main": "calc.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [
-    "test",
-    "jest"
-  ],
-  "author": "Carlos Cepeda",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^27.3.1"
-  }
+    "name": "calculadora",
+    "version": "1.0.0",
+    "description": "ejemplo testing",
+    "main": "calc.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": [
+        "test",
+        "jest"
+    ],
+    "author": "Carlos Cepeda",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^27.3.1"
+    }
 }

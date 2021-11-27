@@ -1,26 +1,32 @@
 exports.generateText = (name, age) => {
-  // Returns output text
-  return `${name} (${age} years old)`;
+    // Returns output text
+    return `${name} (${age} years old)`;
 };
 
 exports.createElement = (type, text, className) => {
-  // Creates a new HTML element and returns it
-  const newElement = document.createElement(type);
-  newElement.classList.add(className);
-  newElement.textContent = text;
-  return newElement;
+    // Creates a new HTML element and returns it
+    const newElement = document.createElement(type);
+    newElement.classList.add(className);
+    newElement.textContent = text;
+    return newElement;
 };
 
 exports.validateInput = (text, notEmpty, isNumber) => {
-  // Validate user input with two pre-defined rules
-  if (!text) {
-    return false;
-  }
-  if (notEmpty && text.trim().length === 0) {
-    return false;
-  }
-  if (isNumber && +text === NaN) {
-    return false;
-  }
-  return true;
+    // Validate user input with two pre-defined rules
+    console.log("entro aqui!!!");
+    if (!text) {
+        console.log("entro aqui!!! 1");
+        return false;
+    }
+
+    if (notEmpty && text.trim().length === 0) {
+        console.log("entro aqui!!! 2");
+        return false;
+    }
+    if (isNumber && +text === NaN) {
+        console.log("entro aqui!!! 3");
+        return false;
+    }
+    console.log("entro aqui!!! 4");
+    return true;
 };
