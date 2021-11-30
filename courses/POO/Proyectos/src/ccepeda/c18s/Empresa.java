@@ -29,7 +29,7 @@ public class Empresa {
         return total;
     }
 
-    public int cantVecesRecorrida(String estacion) throws ClienteException {
+    public int cantVecesRecorrida(String estacion) throws RuntimeException {
         int cont = 0;
         for (Reserva reserva : listaReservas) {
             if (reserva.getEstacionOrigen().equals(estacion)) {
@@ -37,7 +37,7 @@ public class Empresa {
             }
         }
         if (cont == 0) {
-            throw new ClienteException("Error: Ningun usuario paso por la estacion " + estacion);
+            throw new RuntimeException();
         }
         return cont;
     }

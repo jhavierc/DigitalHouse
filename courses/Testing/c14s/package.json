@@ -4,12 +4,11 @@
     "description": "An introduction to JS testing",
     "main": "app.js",
     "scripts": {
-        "start": "webpack app.js --mode development --watch",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "scripts": {
-        "test": "jest",
+        "test": "jest --env=jsdom",
         "test:coverage": "jest --coverage"
+    },
+    "jest": {
+        "testEnviroment": "jsdom"
     },
     "keywords": [
         "js",
@@ -30,6 +29,7 @@
         "webpack-cli": "^3.1.2"
     },
     "dependencies": {
-        "jest": "^27.3.1"
+        "jest": "^27.3.1",
+        "jest-cli": "^27.3.1"
     }
 }

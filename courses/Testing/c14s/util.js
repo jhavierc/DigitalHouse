@@ -13,9 +13,7 @@ exports.createElement = (type, text, className) => {
 
 exports.validateInput = (text, notEmpty, isNumber) => {
     // Validate user input with two pre-defined rules
-    console.log("entro aqui!!!");
     if (!text) {
-        console.log("entro aqui!!! 1");
         return false;
     }
 
@@ -23,7 +21,7 @@ exports.validateInput = (text, notEmpty, isNumber) => {
         console.log("entro aqui!!! 2");
         return false;
     }
-    if (isNumber && +text === NaN) {
+    if (isNumber && text === NaN) {
         console.log("entro aqui!!! 3");
         return false;
     }

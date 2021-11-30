@@ -10,7 +10,7 @@ public class EmpresaTurismo {
         try {
             System.out.println("Cantidad usuarios que pasaron por la estacion de Buenos Aires :"
                     + empresa.cantVecesRecorrida("Buenos Aires"));
-        } catch (ClienteException e) {
+        } catch (RuntimeException e) {
             System.out.println(e.getMessage());
         }
 
@@ -27,7 +27,7 @@ public class EmpresaTurismo {
         try {
             System.out.println("Cantidad usuarios que pasaron por la estacion de Buenos Aires :"
                     + empresa.cantVecesRecorrida("Buenos Aires"));
-        } catch (ClienteException e) {
+        } catch (RuntimeException e) {
             System.out.println(e.getMessage());
         }
 

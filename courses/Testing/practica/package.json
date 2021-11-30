@@ -11,6 +11,9 @@
         "test",
         "jest"
     ],
+    "jest": {
+        "testEnviroment": "jsdom"
+    },
     "author": "Carlos Cepeda",
     "license": "MIT",
     "devDependencies": {

@@ -13,20 +13,25 @@ describe('Test function generateText', () => {
 
 describe('Test function validateInput', () => {
 
+    test('test sin parametros', () => {
+        expect(validateInput()).toBeFalsy()
+    })
+
     test('test ok', () => {
-        expect(validateInput('hola', 2, 2)).toBeTruthy()
+        expect(validateInput('hola', true, false)).toBeTruthy()
     })
 
     test('test primer parametro error', () => {
-        expect(validateInput(null, 2, 2)).toBeFalsy()
+        expect(validateInput(" ", true)).toBeFalsy()
     })
 
-    test('test segundo true error', () => {
-        expect(validateInput('', true, false)).toBeFalsy()
+    test('test con NAN en texto', () => {
+        expect(validateInput(NaN, false, true)).toBeFalsy()
     })
+
 
     test('test tercero true error', () => {
-        expect(validateInput("", true, true)).toBeFalsy()
+        expect(validateInput("", false, true)).toBeFalsy()
     })
 
 
